@@ -1,20 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-*{
-    font-family: "Poppins";
+* {
+  font-family: "Poppins";
 }
 
-#header{
-    padding-top: 30px;
+#header {
+  padding-top: 30px;
 }
 
 #header img {
-    width: 3rem;
-   margin-right: 10px;
-    border-radius: 10px;
+  width: 5rem;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
-#header h2{
-    padding-top: 8px;
+#header h2 {
+  padding-top: 18px;
+  font-size: 40px;
+}
+
+#card__boostrap {
+  width: 40rem;
+  height: 20rem;
+  background-color: #5a2a76;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#card__boostrap img {
+  width: 40rem;
+  border-radius: 15px;
+  padding-top: 40px;
+}
+
+#card__boostrap__info {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+#card__boostrap__logo img {
+  width: 4rem;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+#card__boostrap__logo h2 {
+  padding-top: 20px;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+
+#main__novedades__principal h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#segundario__card1 img {
+  width: 18rem;
+  margin-left: 30px;
+  margin-top: 120px;
+  border-radius: 10px;
+}
+
+#card__boostrap__info2 img{
+  width: 3rem;
+  margin-right: 10px;
+  border-radius: 100%;
+  
+
+}
+
+#card__boostrap__info2{
+    margin-top: 125px;
+    margin-left: 20px;
+}
+
+#card__boostrap__info2 h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#card__boostrap__info2 p{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+#segundario__card2 img {
+    width: 18rem;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
