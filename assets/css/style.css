@@ -4,6 +4,8 @@
   font-family: "Poppins";
 }
 
+/*  seccion header    */
+
 .header__logo {
   display: flex;
   align-items: center;
@@ -20,6 +22,8 @@
   font-size: 30px;
   font-weight: 500;
 }
+
+/*  seccion principal novedades    */
 
 .main__novedades {
   display: flex;
@@ -59,263 +63,213 @@
   border-radius: 100%;
 }
 
-
-
-
-
+/*  Seccion  segundaria Novedades    */
 
 .mian__novedades__segundario {
   width: 40%;
-  margin-top:105px;
+  margin-top: 105px;
   margin-left: 20px;
-    
 }
 
 .novedades__card img {
   width: 18rem;
   border-radius: 15px;
   margin-bottom: 15px;
-  
 }
 
 .novedades__card {
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.novedades__card--image{
-    display: inline-block;
+.novedades__card--image {
+  display: inline-block;
 }
 
-.novedades__card--container{
-    flex-direction: row;
-    align-items: center;
+.novedades__card--container {
+  flex-direction: row;
+  align-items: center;
 }
 
-.novedades__card--text{
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    
+.novedades__card--text {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
-.novedades__card--date{
-    font-size: 15px;
-    font-weight: 400;
-
-    
+.novedades__card--date {
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.novedades__card--author{
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 500;
-    gap: 5px;
+.novedades__card--author {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 5px;
 }
 
 .novedades__card--author img {
-    width: 2rem;
-    border-radius: 100%;
-
+  width: 2rem;
+  border-radius: 100%;
 }
 
-.main__seccion{
-    display: flex;
+/*  main seccion populares    */
+
+.main__seccion {
+  display: flex;
 }
 
-
-.main__seccion-70{
-    
-    display: column;
-    width: 70%;
-    
+.main__seccion-70 {
+  display: column;
+  width: 70%;
 }
 
+/*  seccion populares    */
 
-
-
-
-.seccion__populares--titulo{
-    display: flex;
+.seccion__populares--titulo {
+  display: flex;
 }
 
-.populares{
-    display: inline-flex;
-    flex-wrap: wrap;
+.populares {
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .populares__card {
-    display: column;
-    
-    
+  display: column;
 }
 
 .populares__card--image {
-    display: inline-block;
-    margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .populares__card--image img {
-    width: 25rem;
-    border-radius: 15px;
-    margin-bottom: 0,5rem;
-    
-
+  width: 25rem;
+  border-radius: 15px;
+  margin-bottom: 0, 5rem;
 }
 
-.populares__card--date{
-    font-size: 15px;
-    font-weight: 400;
-    
+.populares__card--date {
+  font-size: 15px;
+  font-weight: 400;
 }
 
-
-.populares__card--text{
-    font-size: 22px;
-    font-weight: 700;
-    margin-top: 8px;
-    margin-bottom: 30px;
-    
+.populares__card--text {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 30px;
 }
 
-
-.populares__card--author{
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 20px;
+.populares__card--author {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .populares__card--author img {
-    width: 2rem;
-    margin-right: 10px;
-    border-radius: 100%;
-
+  width: 2rem;
+  margin-right: 10px;
+  border-radius: 100%;
 }
 
+/*  Seccion Categoria   */
 
-.main__seccion-30{
-    width: 30%;
-    display: column;
-    align-items: center;
-    
-    
-    
+.main__seccion-30 {
+  width: 30%;
+  display: column;
+  align-items: center;
 }
-
-
 
 .categorias {
-    flex-direction: row;
-    align-content: center;
-    
-    
+  flex-direction: row;
+  align-content: center;
 }
 
-
-.categorias__card-logo img{
-    width: 5rem;
-    object-fit: cover;
-
-
+.categorias__card-logo img {
+  width: 5rem;
+  object-fit: cover;
 }
 
-.categorias__card-logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 1rem;
-    
-    
-    
+.categorias__card-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem;
 }
-
 
 /*    colores fondo       */
 
-.categorias-cards-color--naranjo{
-    width: 90%;
-    border-radius: 15px;
-    background-color: #E93E30;
-    margin-bottom: 20px;
-    
-
+.categorias-cards-color--naranjo {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #e93e30;
+  margin-bottom: 20px;
 }
 
-.categorias-cards-color--amarillo{
-    width: 90%;
-    border-radius: 15px;
-    background-color: #F7E018;
-    margin-bottom: 20px;
-
+.categorias-cards-color--amarillo {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #f7e018;
+  margin-bottom: 20px;
 }
 
-.categorias-cards-color--celeste{
-    width: 90%;
-    border-radius: 15px;
-    background-color: #299ED5;
-    margin-bottom: 20px;
-
+.categorias-cards-color--celeste {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #299ed5;
+  margin-bottom: 20px;
 }
 
-.categorias-cards-color--negro{
-    width: 90%;
-    border-radius: 15px;
-    background-color: #292C33;
-    margin-bottom: 20px;
-
+.categorias-cards-color--negro {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #292c33;
+  margin-bottom: 20px;
 }
 
-.categorias-cards-color--verde{
-    width: 90%;
-    border-radius: 15px;
-    background-color: #67C770;
-    margin-bottom: 20px;
-
+.categorias-cards-color--verde {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #67c770;
+  margin-bottom: 20px;
 }
 
-.categorias-cards-color--morado{
-    width: 90%;
-    border-radius: 15px;
-    background-color: #563D7C;
-    margin-bottom: 20px;
-
+.categorias-cards-color--morado {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #563d7c;
+  margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
 
 /*  footer    */
 
-
 .footer__logo {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  .footer__logo img {
-    width: 4rem;
-    margin-right: 10px;
-    border-radius: 10px;
-  }
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
-  .footer__date--text{
-    margin-left: auto;
-  }
+.footer__logo img {
+  width: 4rem;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-  .footer__logo--text {
-    font-size: 30px;
-    font-weight: 500;
-  }
+.footer__date--text {
+  margin-left: auto;
+}
+
+.footer__logo--text {
+  font-size: 30px;
+  font-weight: 500;
+}
