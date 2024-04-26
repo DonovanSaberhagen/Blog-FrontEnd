@@ -21,54 +21,275 @@
 
     <title>Blog Frontend</title>
   </head>
+
+  <!--     header          -->
+
   <body>
-    <header>
-      <section id="header" class="container">
-        <section class="d-flex">
-          <img src="./assets/image/logos/adl.png" alt="Logo" />
-          <h2>Blog FrontEnd</h2>
-        </section>
+    <header class="header container">
+      <section class="header__logo">
+        <img src="./assets/image/logos/adl.png" alt="Logo" />
+        <h2 class="header__logo--text">Blog FrontEnd</h2>
       </section>
     </header>
     <hr />
 
     <main>
-      <section id="main__novedades" class="container d-flex">
-        <section id="main__novedades__principal">
-          <h2 class="mt-5">Novedades</h2>
-          <div id="card__boostrap">
+      <!--          main Novedades - Principal                     -->
+
+      <section class="main__novedades container">
+        <section class="main__novedades__principal">
+          <h2 class="main__novedades--titulo">Novedades</h2>
+          <div class="main__novedades--card">
             <img src="./assets/image/posts/bootstrap.png" alt="Bootstrap" />
           </div>
-          <span id="card__boostrap__fecha">24 Noviembre,2022</span>
-          <p id="card__boostrap__info">
+          <span class="novedades__card--fecha">24 Noviembre,2022</span>
+          <p class="novedades__card--info">
             Modifica el tema de Boostrap con variables CSS
           </p>
-          <div id="card__boostrap__logo" class="d-flex">
+          <div class="card__autor--logo">
             <img src="./assets/image/logos/adl.png" alt="Logo" />
-            <h2>Desafio Latam</h2>
+            <h2 class="card__autor--text">Desafio Latam</h2>
           </div>
         </section>
 
-        <section id="mian__novedades__segundario" class="d-flex">
-          <div id="segundario__card1">
-            <img src="./assets/image/posts/Herencia-JS.png" alt="js" />
-          </div>
-          <div id="card__boostrap__info2" class="">
-            <span>24 de Noviembre, 2022</span>
-            <p>
-              Herencia en <br />
-              Javascript
-            </p>
-            <div class="d-flex">
-              <img src="./assets/image/logos/adl.png" alt="Logo" />
-              <h3>Desafio Latam</h3>
+        <!--           seccion Cards 1                 -->
+
+        <section class="mian__novedades__segundario">
+          <section class="novedades__segundario">
+            <div class="novedades__card">
+              <div class="novedades__card--image">
+                <img src="./assets/image/posts/Herencia-JS.png" alt="js" />
+              </div>
+              <div class="novedades__card--container">
+                <span class="novedades__card--date">24 noviembre, 2022</span>
+                <p class="novedades__card--text">Herencia en Javascript</p>
+                <div class="novedades__card--author">
+                  <img src="./assets/image/logos/adl.png" alt="logo" /><span
+                    >Desafio Latam</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+           <!--           seccion Cards 2                 -->
+
+          <section class="novedades__segundario">
+            <div class="novedades__card">
+              <div class="novedades__card--image">
+                <img
+                  src="./assets/image/posts/Etiquetas-semánticas-HTML.png"
+                  alt="js"
+                />
+              </div>
+              <div class="novedades__card--container">
+                <span class="novedades__card--date">24 noviembre, 2022</span>
+                <p class="novedades__card--text">
+                  Etiqueta <br />
+                  semantica
+                </p>
+                <div class="novedades__card--author">
+                  <img src="./assets/image/logos/adl.png" alt="logo" /><span
+                    >Desafio Latam</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+           <!--           seccion Cards 3                -->
+
+          <section class="novedades__segundario">
+            <div class="novedades__card">
+              <div class="novedades__card--image">
+                <img src="./assets/image/posts/reactComponents.png" alt="js" />
+              </div>
+              <div class="novedades__card--container">
+                <span class="novedades__card--date">24 noviembre, 2022</span>
+                <p class="novedades__card--text">Componentes <br />React</p>
+                <div class="novedades__card--author">
+                  <img src="./assets/image/logos/adl.png" alt="logo" /><span
+                    >Desafio Latam</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <!--          main populares - principal       -->
+
+      <hr />
+      <section class="main__seccion container">
+
+        <section class="main__seccion-70">
+            <h2>Populares</h2>
+          <section class="populares">
+
+                    <!--   card 1  -->
+
+
+            <div class="populares__card">
+              <div class="populares__card--image">
+                <img src="./assets/image/posts/vue-components.png" alt="js" />
+              </div>
+              <div class="populares__card--body">
+                <span class="populares__card--date">24 noviembre, 2022</span>
+                <p class="populares__card--text">Componentes Vue</p>
+                <div class="populares__card--author">
+                  <img src="./assets/image/logos/adl.png" alt="logo" /><span
+                    >Desafio Latam</span
+                  >
+                </div>
+              </div>
+            </div>
+          
+                     <!--   card 2  -->
+          
+            <div class="populares__card">
+              <div class="populares__card--image">
+                <img src="./assets/image/posts/api-js.png" alt="js" />
+              </div>
+              <div class="populares__card--body">
+                <span class="populares__card--date">24 noviembre, 2022</span>
+                <p class="populares__card--text">
+                  Consumo de API con Javascript
+                </p>
+                <div class="populares__card--author">
+                  <img src="./assets/image/logos/adl.png" alt="logo" /><span
+                    >Desafio Latam</span
+                  >
+                </div>
+              </div>
+            </div>
+          
+                     <!--   card 3  -->
+          
+            <div class="populares__card">
+              <div class="populares__card--image">
+                <img src="./assets/image/posts/sass.jpg" alt="js" />
+              </div>
+              <div class="populares__card--body">
+                <span class="populares__card--date">24 noviembre, 2022</span>
+                <p class="populares__card--text">CSS Reutilizable con Sass</p>
+                <div class="populares__card--author">
+                  <img src="./assets/image/logos/adl.png" alt="logo" /><span
+                    >Desafio Latam</span
+                  >
+                </div>
+              </div>
+            </div>
+          
+                     <!--   card 4  -->
+        
+            <div class="populares__card">
+              <div class="populares__card--image">
+                <img src="./assets/image/posts/bootstrap-2-01.png" alt="js" />
+              </div>
+              <div class="populares__card--body">
+                <span class="populares__card--date">24 noviembre, 2022</span>
+                <p class="populares__card--text">Componenetes Boostrap</p>
+                <div class="populares__card--author">
+                  <img src="./assets/image/logos/adl.png" alt="logo" /><span
+                    >Desafio Latam</span
+                  >
+                </div>
+              </div>
+            </div>
+          
+        </section>
+
+    </section>
+
+        <!--           categoria seccion 2 logos                  -->
+
+        <section class="main__seccion-30">
+            <h2>Categorias</h2>
+            <section class="categorias">
+
+                <!--           logos  1            -->
+
+          <div class="categorias-cards-color--naranjo">
+            <div class="categorias__card-logo">
+              <img src="./assets/image/logos/html.png" alt="html" />
+              <h3>HTML</h3>
             </div>
           </div>
-        </section>
 
-        
+
+          <!--           logos  2            -->
+
+          <div class="categorias-cards-color--amarillo">
+            <div class="categorias__card-logo">
+              <img src="./assets/image/logos/js.png" alt="js" />
+              <h3>JAVASCRIPT</h3>
+            </div>
+          </div>
+
+          <!--           logos  3            -->
+
+          <div class="categorias-cards-color--celeste">
+            <div class="categorias__card-logo">
+              <img src="./assets/image/logos/css.png" alt="css" />
+              <h3>CSS</h3>
+            </div>
+          </div>
+
+          <!--           logos  4            -->
+
+          <div class="categorias-cards-color--negro">
+            <div class="categorias__card-logo">
+              <img src="./assets/image/logos/react.png" alt="react" />
+              <h3>REACT</h3>
+            </div>
+          </div>
+
+          <!--           logos  5            -->
+
+          <div class="categorias-cards-color--verde">
+            <div class="categorias__card-logo">
+              <img src="./assets/image/logos/vue.png" alt="vue" />
+              <h3>VUE</h3>
+            </div>
+          </div>
+
+          <!--           logos  6            -->
+
+          <div class="categorias-cards-color--morado">
+            <div class="categorias__card-logo">
+              <img src="./assets/image/logos/bootstrap-logo.png" alt="bootstrap" />
+              <h3>BOOTSTRAP</h3>
+            </div>
+          </div>
+
+
+          <h5>Ver Todas las Categorias ></h3>
+
+
+
+
+
+        </section>
       </section>
+
+
+
     </main>
-    <footer></footer>
+
+    <!--         footer            -->
+
+    <hr />
+    <footer class="footer container">
+      <section class="footer__logo">
+        <img src="./assets/image/logos/adl.png" alt="Logo" />
+        <h2 class="footer__logo--text">Blog FrontEnd</h2>
+        <span class="footer__date--text">Desafio Latam - 2023</span>
+      </section>
+    </footer>
   </body>
 </html>
+
+
+
+
